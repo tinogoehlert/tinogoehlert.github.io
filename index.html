@@ -1,1 +1,124 @@
-Hallo Welt
+
+<html>
+<head>
+	<!-- Metas tag -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<!-- Descripcion -->
+	<meta name="description" content="Github.io page from Tino Goehlert">
+	<meta name="author" content="Tino Göhlert">
+	<meta name="keywords" content="">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/siimple.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
+	<link rel="stylesheet" type="text/css" href="css/me.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Lato" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+</head>
+<body>
+
+	<!-- Navbar -->
+	<div class="navbar">
+
+        <!-- Logo -->
+		<a href="#aboutme" class="navbar-logo shake"><span style="color: #FA7777">T</span>G</a>
+		<!-- Items -->
+		<a href="https://github.com/tinogoehlert" class="navbar-link shake ">Github</a>
+		<a href="#skills" class="navbar-link shake" id="nav-skills">Skills</a>
+
+	</div>
+
+
+<!-- Title -->
+<title>Tino Göhlert · Developer</title>
+
+<!-- Page cover -->
+<div class="cover" align="center">
+
+  <!-- Title -->
+  <div class="cover-title animated bounceInUp"><span style="color: #FA7777">Hi</span>, i'm Tino Göhlert</div>
+
+  <!-- Description -->
+  <div class="cover-description  animated bounceInUp">Developer - Hacker - <i class="fa fa-random" aria-hidden="true"></i> Thinker.</div>
+
+</div>
+
+<!-- Grid main -->
+<div class="grid main">
+
+    <!-- About title -->
+    <h1 id="aboutme" align="center">About Me</h1>
+
+    <!-- About text -->
+    <p>
+      My name is Tino Göhlert and i'm a passionated software developer with over 10 years of expierence.
+      I helped companies creating award-winning web applications, backend systems and embedded software.
+    </p>
+
+    <!-- Spaces -->
+    &nbsp;&nbsp;
+
+    <!-- Skills title -->
+
+    <h1 id="skills" align="center">Skills</h1>
+    <div class="row">
+        <div class="col-4">
+            <h3>Languages</h3>
+            <li>C++ (99-14)</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>Javascript (browser & node.js)</li>
+            <li>Python</li>
+            <li>Go</li>
+            <li>Lua</li>
+        </div>
+        <div class="col-4">
+            <h3>Frameworks & Tools</h3>
+            <li>Docker / rkt</li>
+            <li>Yii (1,2)</li>
+            <li>Laravel / Lumen</li>
+            <li>Koa</li>
+            <li>Loopback</li>
+            <li>Vault</li>
+            <li>more... </li>
+        </div>
+        <div class="col-4">
+            <h3>Others</h3>
+            <li>Security aware (OWASP ASVS)</li>
+            <li>Scrum approved</li>
+            <li>Communicative</li>
+            <li>Teamplayer</li>
+        </div>
+    </div>
+</div>
+<!-- Spaces -->
+&nbsp;&nbsp;
+  <!-- Foot -->
+  <div class="foot" align="center">
+    <!-- Foot text -->
+    Made with <i class="fa fa-heart" aria-hidden="true"></i> and <a href="http://siimple.juanes.xyz/">Siimple</a>.<br><br>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+    $('a[href*=\\#]').click(function(event){
+      console.log($.attr(this, 'href'));
+      $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+      event.preventDefault();
+    });
+  </script>
+</body>
+</head>
