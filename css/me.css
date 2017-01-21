@@ -53,7 +53,7 @@
     font-size: 30px;
     margin-bottom: 10px; }
   .cover-claim {
-    margin-left: 26px;}
+    margin-left: 32px;}
   .cover-btn {
     width: 150px;
     border-color: #ffffff;
@@ -77,6 +77,11 @@
     margin-top: 40px !important; }
   .main h6 {
     margin-top: 40px !important; }
+
+.important {
+    transition: color 0.5s ease;
+    color: #FA7777;
+}
 
 .docs-head {
   display: block;
